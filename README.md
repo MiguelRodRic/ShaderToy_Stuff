@@ -10,8 +10,8 @@ The second version reduces the shadow ray amount by 1/4 of the original for much
 
 Brute force approach:
 https://www.shadertoy.com/view/stjSzV
-![Shadow_BruteForce](https://user-images.githubusercontent.com/17479836/128628616-77be88ce-3fa9-4138-bcc1-a679cd4a6822.PNG)
+![Shadow_BruteForce](https://user-images.githubusercontent.com/17479836/128628616-77be88ce-3fa9-4138-bcc1-a679cd4a6822.PNG = 512 x 512)
 
 Cheap approach with blue noise:
 https://www.shadertoy.com/view/ftBSR3
-![Shadow_BlueNoise](https://user-images.githubusercontent.com/17479836/128628648-fb661c3d-86bf-478a-96a8-292688b0eb75.PNG)
+![Shadow_BlueNoise](https://user-images.githubusercontent.com/17479836/128628648-fb661c3d-86bf-478a-96a8-292688b0eb75.PNG = 512 x 512)
