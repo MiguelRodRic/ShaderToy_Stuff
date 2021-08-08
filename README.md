@@ -17,3 +17,13 @@ Cheap approach with blue noise:
 https://www.shadertoy.com/view/ftBSR3
 
 <img src="https://user-images.githubusercontent.com/17479836/128628648-fb661c3d-86bf-478a-96a8-292688b0eb75.PNG"  width="512" height="512">
+
+
+## Raymarched animated grid of boxes
+Small raymarching demo with a grid of boxes being animated randomly. For the random displacements I used 2 versions of a noise-based approach. The first one uses Iñigo Quilez's Value Noise shader to produce a noise value at runtime (link can be found in the shader code), and the other version scrolls a grey noise texture to get already generated noise values but at the expense of doing many texture reads.
+https://www.shadertoy.com/view/ft2SRK
+
+
+<img src="https://user-images.githubusercontent.com/17479836/128628879-c9cc5700-e470-474f-baa9-834a29cce537.PNG"  width="512" height="512">
+
+
