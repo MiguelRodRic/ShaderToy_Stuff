@@ -21,9 +21,21 @@ https://www.shadertoy.com/view/ftBSR3
 
 ## Raymarched animated grid of boxes
 Small raymarching demo with a grid of boxes being animated randomly. For the random displacements I used 2 versions of a noise-based approach. The first one uses Iñigo Quilez's Value Noise shader to produce a noise value at runtime (link can be found in the shader code), and the other version scrolls a grey noise texture to get already generated noise values but at the expense of doing many texture reads.
+Shader: 
 https://www.shadertoy.com/view/ft2SRK
-
 
 <img src="https://user-images.githubusercontent.com/17479836/128628879-c9cc5700-e470-474f-baa9-834a29cce537.PNG"  width="512" height="512">
 
 
+## Simple Camera
+Simple functional camera rotating around ray traced spheres.
+Shader:
+https://www.shadertoy.com/view/7lBSWD
+
+![CameraRays](https://user-images.githubusercontent.com/17479836/128629029-18560e5e-32e1-469a-9913-bc3fe7f20fe9.PNG)
+
+
+## Smiley
+Simple smiley playing around with 2D shapes based on pixel coordinates.
+Shader:
+https://www.shadertoy.com/view/NtsXz2
